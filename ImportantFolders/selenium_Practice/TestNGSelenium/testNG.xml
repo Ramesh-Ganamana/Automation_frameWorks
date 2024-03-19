@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleTestSuite">
+
+    <test name="SampleTestCase">
+        <classes>
+            <class name="seleniumDemo.practice.java"/>
+            <class name="alertPackage.alert.java"/>
+        </classes>
+    </test>
+
+    <!-- You can define additional tests here -->
+
+</suite>

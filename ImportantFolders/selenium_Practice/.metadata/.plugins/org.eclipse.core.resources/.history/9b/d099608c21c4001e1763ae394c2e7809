@@ -1,0 +1,37 @@
+package seleniumDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class practice {
+	
+	@Test
+	
+	public void myTest() throws Exception {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.saucedemo.com/");
+		driver.manage().window().maximize();
+		System.out.println("Ramesh**********************************");
+	driver.findElement(By.xpath("//input[@id='user-name']")).click();
+	System.out.println("Boggeswari **********************************");
+	driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_user");
+	System.out.println("Boggeswari **********************************");
+	WebElement UserPassword = driver.findElement(By.xpath("//input[@id='password']"));
+	UserPassword.sendKeys("secret_sauce");
+	WebElement UserLogin = driver.findElement(By.xpath("//input[@id='login-button']"));
+	UserLogin.click();
+	Thread.sleep(1000);
+	driver.quit();
+	}
+	
+	
+	
+	
+   
+}

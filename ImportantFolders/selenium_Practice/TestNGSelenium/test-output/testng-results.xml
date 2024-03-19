@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-08T09:08:03Z" name="Default suite" finished-at="2024-02-08T09:08:22Z" duration-ms="18932">
+    <groups>
+    </groups>
+    <test started-at="2024-02-08T09:08:03Z" name="Default test" finished-at="2024-02-08T09:08:22Z" duration-ms="18932">
+      <class name="AlertDemo.alertPractice">
+        <test-method is-config="true" signature="AlertSetup()[pri:0, instance:AlertDemo.alertPractice@48bb62]" started-at="2024-02-08T14:38:03Z" name="AlertSetup" finished-at="2024-02-08T14:38:11Z" duration-ms="7310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertSetup -->
+        <test-method signature="HandleAlerts()[pri:0, instance:AlertDemo.alertPractice@48bb62]" started-at="2024-02-08T14:38:11Z" name="HandleAlerts" finished-at="2024-02-08T14:38:22Z" duration-ms="11231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandleAlerts -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AlertDemo.alertPractice@48bb62]" started-at="2024-02-08T14:38:22Z" name="TearDown" finished-at="2024-02-08T14:38:22Z" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- AlertDemo.alertPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

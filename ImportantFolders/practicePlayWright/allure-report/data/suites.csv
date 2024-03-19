@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 30 10:37:42 IST 2023","Mon Oct 30 10:37:54 IST 2023","11587","chromium","login.spec.js","","","","TC-2Items add to the cart",""
+"passed","Mon Oct 30 10:38:18 IST 2023","Mon Oct 30 10:38:36 IST 2023","17700","chromium","login.spec.js","","","","TC-4 Exploring about the sause labs",""
+"passed","Mon Oct 30 10:37:33 IST 2023","Mon Oct 30 10:37:42 IST 2023","8931","chromium","login.spec.js","","","","TC-1Itarating the loop for the items",""
+"passed","Mon Oct 30 10:38:36 IST 2023","Mon Oct 30 10:39:03 IST 2023","26506","chromium","login.spec.js","","","","TC-5 Exploring sauseLabs products",""
+"passed","Mon Oct 30 10:37:54 IST 2023","Mon Oct 30 10:38:18 IST 2023","24399","chromium","login.spec.js","","","","TC-3 purchasing the items",""

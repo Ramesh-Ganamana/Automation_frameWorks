@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.view.View[@resource-id='featured-content-2']/android.widget.ListView/android.view.View[1]"
+}
